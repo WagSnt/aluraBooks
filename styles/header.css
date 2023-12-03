@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative; /*liberando o espaço para movimentar o menu para baixo do hamburger*/
 }
 
 .container {
@@ -21,4 +22,32 @@
 
 .container__image {
   padding: 1em;
+}
+
+.list-menu {
+  display: none;
+  position: absolute; /*tornando o menu absoluto para move-lo*/
+  top: 100%;
+  width: 60vw;
+}
+
+.container__button:checked ~ .list-menu { /* ~ procura a classe e a exibe */
+  display: block;
+}
+
+.list-menu__title, .list-menu__item {
+  padding: 1em;
+  background-color: var(--white);
+}
+
+.list-menu__title {
+  color: var(--orange);
+}
+
+.list-menu__link {
+  background: var(--blue-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
 }

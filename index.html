@@ -10,7 +10,28 @@
 <body>
   <header class="header">
     <div class="container">
-      <span class="header__menu-hamburger container__image"></span>
+      <input type="checkbox" id="menu" class="container__button"> <!--Detecta quando o botão é clicado-->
+      <label for="menu"> <!---->
+        <span class="header__menu-hamburger container__image"></span>
+      </label>
+      <ul class="list-menu">
+        <li class="list-menu__title">Categorias</li>
+        <li class="list-menu__item">
+          <a href="#" class="list-menu__link">Programação</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="#" class="list-menu__link">Front-end</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="#" class="list-menu__link">Infraestrutura</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="#" class="list-menu__link">Bussiness</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="#" class="list-menu__link">Design & UX</a>
+        </li>
+      </ul>
       <img src="images/Logo.svg" alt="Logo da AluraBooks" class="container__image">
     </div>
     <div class="container">
