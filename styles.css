@@ -7,7 +7,8 @@
   --white: #FFFFFF;
   --orange: #EB9B00;
   --blue-gradient: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
-  --main-font: "Poppins"
+  --main-font: "Poppins";
+  --blue-text: #002F52;
 }
 
 body {
