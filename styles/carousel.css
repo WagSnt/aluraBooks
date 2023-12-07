@@ -28,6 +28,7 @@
 .card__description {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0.5em;
 }
 
 .card__button {
@@ -55,9 +56,21 @@
 .description__title-book {
   color: var(--blue-text);
   font-weight: 700;
+  margin: 0.5em 0;
 }
 
 .description__text {
   font-size: 14px;
-  
+}
+
+.button__item {
+  margin: 0 0.5em;
+}
+
+.button__anchor {
+  background-color: var(--orange);
+  padding: 1em 2.25em;
+  color: var(--white);
+  font-weight: 700;
+  text-decoration: none;
 }
