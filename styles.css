@@ -14,6 +14,8 @@
   --secondary-font: "Josefin Sans";
   --blue-text: #002F52;
   --black: #000000;
+  --gray: #474646;
+  --gray-light: #858585;
 }
 
 body {
