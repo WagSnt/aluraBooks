@@ -61,6 +61,10 @@
   display: none;
 }
 
+.options {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
   .container__title, 
@@ -83,6 +87,28 @@
   }
   
   .options__item {
-    padding: 1em;
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+  
+  .options__link {
+    text-decoration: none;
+    color: var(--black);
+  }
+  .container__image-transparent {
+    display: none;
+  }
+
+  .header__menu-hamburger {
+    display: none;
+  }
+
+  .options__button:checked ~ .list-menu {
+    display: block;
+    width: auto;
+  }
+
+  .options__button {
+    display: none;
   }
 }
